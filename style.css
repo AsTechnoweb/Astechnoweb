@@ -465,8 +465,8 @@ a img.aligncenter {
 .header_style_01 .navbar-default .navbar-nav > li:focus a {
     color: #ffffff;
 	box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
-	border-radius: 25px 0px 25px 0px;
-	background: #fd6802;
+	/* border-radius: 25px 0px 25px 0px; */
+	background: #080400;
 }
 
 .header_style_01 .navbar-right > li {
@@ -503,6 +503,146 @@ li.social-links a {
     top: 13px;
 }
 
+  /*------------------------------------------------------------------
+    About
+-------------------------------------------------------------------*/
+
+@media (max-width:700px) {
+    .picmedia
+    {
+        height: auto;
+        margin-bottom: 25px;
+    }
+    .centertp
+    {
+        margin-left: 22%;
+    }
+}
+
+
+.gallery-single{
+    margin-bottom: 30px;
+  }
+  
+  .gallery-single {
+      overflow: hidden;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc;
+  }
+  
+  .about-section-box{
+    padding: 70px 0px;
+    background: #ffffff  no-repeat bottom center;
+    background-size: cover;
+  }
+  .about-section-box .img-fluid{
+    box-shadow: 20px 20px 12px 0px #023c39;
+  }
+  .inner-column{
+    text-align: left;
+  }
+  .inner-column h1{
+    font-family:sans-serif;
+    font-size: 30px;
+    color: #010101;
+    font-weight: 500;
+  }
+  .inner-column h1 span{
+    color: #0dccc2;
+  }
+  .inner-column h4{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .inner-column p{
+    font-size: 18px;
+      color: #045f5b;
+      text-align: justify;
+      
+      font-weight: 500;
+  }
+  .inner-column .btn-outline-new-white{
+    color: #fff;
+  }
+  .inner-column .btn-outline-new-white:hover{
+    color: #ffffff;
+  }
+  @media(max-width: 990px){
+    .img-box{
+      padding-bottom: 4rem;
+      padding-top: 4rem;
+    }
+  }
+  
+  .about--part1{
+    opacity: 0;
+  }
+  .about--part1 .animated{
+    opacity: 1;
+  }
+/*-------------------------------------------------------------------
+   dropdown menu
+---------------------------------------------------------------------*/
+.bgsearchbar
+{
+    background: #393939;
+    line-height: 4;
+     margin-top: 20px;
+     padding-left:80px;
+     border-radius: 10px;
+    height: 65px;
+} 
+@media(max-width:700px)
+{
+    .bgsearchbar
+    {
+       
+        background: #393939;
+        line-height: 4;
+        padding-top: 5px;
+        height: 100px;
+    } 
+}  
+
+
+/*--------- search bar --------------*/
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+   
+   
+    text-decoration: none;
+  }
+  
+li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
 /*------------------------------------------------------------------
     Banner Slider
 -------------------------------------------------------------------*/
@@ -522,7 +662,7 @@ li.social-links a {
 }
 
 .slider-bg-three {
-    background-image: url("uploads/slider_03.jpg");
+    background-image: url("uploads/slider_01.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -620,7 +760,7 @@ li.social-links a {
 .home-one-slider-otem::before{
 	content: "";
 	position: absolute;
-	background: rgba(0,0,0, 0.8);
+	
 	width: 100%;
 	height: 100%;
 	top: 0%;
@@ -774,6 +914,8 @@ li.social-links a {
 	padding: 12px 0px;
 }
 .service-dit{
+    color: #080400;
+    font-weight: 500;
 	padding: 20px 15px;
 }
 
